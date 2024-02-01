@@ -33,3 +33,14 @@ sector <- list(subdiv_id = 3, subdiv_name = "Sector", attr_id = "GID_3", attr_na
 js_outupt_file <- "~/ADT/AWS_DATA/GEOJSON/subdivision_names.js"
 
 create_js_file(province, district, sector, js_outupt_file)
+
+###############
+### symbolic link
+## symbolic link all file from AWS_DATA/GEOJSON to apiADT/app/static/geojson
+
+ln -s ~/ADT/AWS_DATA/GEOJSON/country-boundaries.geojson ~/ADT/apiADT/app/static/geojson
+ln -s ~/ADT/AWS_DATA/GEOJSON/subdivision_names.js ~/ADT/apiADT/app/static/geojson
+ln -s ~/ADT/AWS_DATA/GEOJSON/subdivision1.geojson ~/ADT/apiADT/app/static/geojson
+ln -s ~/ADT/AWS_DATA/GEOJSON/subdivision2.geojson ~/ADT/apiADT/app/static/geojson
+
+
