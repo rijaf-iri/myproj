@@ -43,4 +43,6 @@ ln -s ~/ADT/AWS_DATA/GEOJSON/subdivision_names.js ~/ADT/apiADT/app/static/geojso
 ln -s ~/ADT/AWS_DATA/GEOJSON/subdivision1.geojson ~/ADT/apiADT/app/static/geojson
 ln -s ~/ADT/AWS_DATA/GEOJSON/subdivision2.geojson ~/ADT/apiADT/app/static/geojson
 
+###############
+## test
 
