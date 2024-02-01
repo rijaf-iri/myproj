@@ -45,4 +45,5 @@ ln -s ~/ADT/AWS_DATA/GEOJSON/subdivision2.geojson ~/ADT/apiADT/app/static/geojso
 
 ###############
 ## test
+## test2
 
